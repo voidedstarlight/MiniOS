@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-System/getApplications.py
+System/applications.py
 Gets all applications
 Based on Python 3 and PyQt
 """
