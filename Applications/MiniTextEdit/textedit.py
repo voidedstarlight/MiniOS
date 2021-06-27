@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Applications/SimplifycTextEdit/textedit.py
-Simplifyc Text Edit
-Text Editor made using Python 3 and PyQt for the SimplifycOS project: https://github.com/voidedstarlight/SimplifycOS
+Applications/MiniTextEdit/textedit.py
+Mini Text Edit
+Text Editor made using Python 3 and PyQt for the MiniOS project: https://github.com/voidedstarlight/MiniOS
 """
 
 # Imports

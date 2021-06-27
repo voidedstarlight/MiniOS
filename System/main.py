@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 System/main.py
-The Simplifyc Operating System main script
+The Mini Operating System main script
 Based on Python 3 and PyQt
 """
 
@@ -28,7 +28,7 @@ from PyQt5.QtWidgets import *
 # Define global variables
 applications, config = returnApplications(), Config()
 
-print("Starting the Simplifyc Operating System...") # Print starting message
+print("Starting the Mini Operating System...") # Print starting message
 
 class Window(QMainWindow):
 	"""Main Window"""

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Applications/SimplifycCalculator/calculator.py
-Simplifyc Calculator
-Calculator made using Python 3 and PyQt, HTML, CSS, and JavaScript for the SimplifycOS project: https://github.com/voidedstarlight/SimplifycOS
+Applications/MiniCalculator/calculator.py
+Mini Calculator
+Calculator made using Python 3 and PyQt, HTML, CSS, and JavaScript for the MiniOS project: https://github.com/voidedstarlight/MiniOS
 Main calculator code at calculator/index.html
 """
 
