@@ -4,7 +4,6 @@ Function getFileIcon returns PyQt5.QtGui.QIcon for files or directories
 Based on Python 3 and PyQt
 """
 
-# from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 
 
