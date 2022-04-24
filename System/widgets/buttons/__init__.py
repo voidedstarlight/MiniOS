@@ -21,20 +21,27 @@ class PushButton(QPushButton):
 		self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 	
 	def valueChanged(self, color: QColor) -> None:
+		"""If value changed"""
 		self.updateStylesheet(color)
 	
 	def updateStylesheet(self, background: QColor) -> None:
-		self.setStyleSheet(f"QPushButton {{background-color: {background.name()}; color: #888888; padding: 16px 32px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; border: 2px solid white;}}")
+		"""Update style sheet"""
+		self.setStyleSheet(
+			f"QPushButton {{background-color: {background.name()}; color: #888888; padding: 16px 32px; text-align: center; text-decoration: none; font-size: 16px; margin: 4px 2px; border: 2px solid "
+			f"white;}}")
 	
 	def enterEvent(self, event: QEvent) -> None:
+		"""Display backward color animation on mouse hover"""
 		self._animation.setDirection(QAbstractAnimation.Backward)
 		self._animation.start()
 		super().enterEvent(event)
 	
 	def leaveEvent(self, event: QEvent) -> None:
+		"""Display forward color animation on mouse leave"""
 		self._animation.setDirection(QAbstractAnimation.Forward)
 		self._animation.start()
 		super().leaveEvent(event)
 	
 	def updateColor(self, color="black") -> None:
+		"""Update the color"""
 		self.color = color
