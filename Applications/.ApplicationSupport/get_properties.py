@@ -2,7 +2,7 @@
 """
 Applications/.ApplicationSupport/get_properties.py
 returnProperties function returns dictionary with values from System/config JSON files
-Based on Python 3 and PyQt for Application Support in the SimplifycOS project: https://github.com/voidedstarlight/SimplifycOS
+Based on Python 3 and PyQt for Application Support in the MiniOS project: https://github.com/voidedstarlight/MiniOS
 """
 
 __import__("sys").path.insert(1, "System/")
@@ -10,7 +10,7 @@ import config
 
 
 def returnProperties() -> dict:
-	return {**config.ThemeConfig.returnConfig(), **config.FontConfig.returnConfig(), **config.WindowConfig.returnConfig()}
+	return {**config.ThemeConfig.returnConfig(), **config.FontConfig.returnConfig()}
 
 
 def returnBackgroundProperties() -> dict:
