@@ -6,12 +6,12 @@ Calculator made using Python 3 and PyQt, HTML, CSS, and JavaScript for the MiniO
 Main calculator code at calculator/index.html
 """
 
-# Imports
 import os
 
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtWebEngineWidgets import *
+
 
 class Calculator(QMainWindow):
 	"""Main Window"""
