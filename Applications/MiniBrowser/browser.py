@@ -9,11 +9,9 @@ Web browser made using Python 3 and PyQt for the MiniOS project: https://github.
 import os
 import sys
 
-# Local file imports
 sys.path.insert(1, "Applications/.ApplicationSupport")
 import get_properties
 
-# PyQt imports
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
