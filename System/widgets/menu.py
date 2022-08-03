@@ -5,7 +5,7 @@ Menu widgets
 Based on Python 3 and PyQt
 """
 
-from .. import config
+import config
 
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *

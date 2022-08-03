@@ -5,8 +5,11 @@ Rerun main.py script for imports
 
 """
 
+from os import system
+from sys import executable
+
 
 def rerun():
 	print("Successfully installed required packages.")
-	__import__("os").system("python3 System/main.py")
+	system(f"{executable} System/main.py")
 	exit()
